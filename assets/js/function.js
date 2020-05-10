@@ -23,6 +23,8 @@ function image() {
   catImage2.setAttribute("src", "https://i.ibb.co/55VG7vL/three-cat.jpg");
   catImage3.setAttribute("src", "https://i.ibb.co/55VG7vL/three-cat.jpg");
   catImage4.setAttribute("src", "https://i.ibb.co/55VG7vL/three-cat.jpg");
+  alert("Ganti Image Artikel berhasil! > Silahkan Cek");
+
 }
 
 function text() {
@@ -31,4 +33,6 @@ function text() {
 
   catCaption1.innerHTML = 'Indonesian Motorcycle'
   catCaption2.innerHTML = 'Indonesia is always ahead!'
+  alert("Ganti Text Banner berhasil! > Silahkan Cek");
+
 }
