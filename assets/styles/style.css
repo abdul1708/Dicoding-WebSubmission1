@@ -49,6 +49,8 @@ nav a:hover {
 font-weight: bold;
 }
 
+
+
 main{
 padding: 20px;
 overflow: auto;
@@ -103,6 +105,10 @@ object-fit: cover;
 object-position: center;
 }
 
+.card p{
+  text-align: justify;
+}
+
 .more a{
 float:right;
 overflow:auto;
@@ -128,7 +134,7 @@ color:#000;
 
 
 .profile header {
-text-align: center;
+text-align: left;
 }
 
 .profile img{
@@ -143,6 +149,10 @@ padding-bottom: 20px;
 section table tr th{
 text-decoration: whitesmoke;
 padding-right: 20px;
+}
+
+section p{
+text-align: justify;
 }
 
 
