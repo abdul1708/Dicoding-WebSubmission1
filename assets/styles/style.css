@@ -50,7 +50,6 @@ font-weight: bold;
 }
 
 
-
 main{
 padding: 20px;
 overflow: auto;
@@ -143,7 +142,7 @@ width: 100%;
 
 section table{
 text-align: left;
-padding-bottom: 20px;
+padding-bottom: 0;
 }
 
 section table tr th{
@@ -172,6 +171,7 @@ text-decoration:underline;
 }
 aside .widget audio{
 width: 100%;
+padding-bottom: 20px;
 }
 
 
