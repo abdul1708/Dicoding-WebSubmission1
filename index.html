@@ -11,8 +11,8 @@
 <body>
     <header>
         <div class="jumbotron">
-            <h1>Indonesian Motocycle</h1>
-            <p>Indonesia selalu terdepan</p>
+            <h1 id="caption1">Sepeda Motor Indonesia</h1>
+            <p id="caption2">Indonesia selalu terdepan!</p>
         </div>
         <nav>
             <!-- <figure>
@@ -31,7 +31,7 @@
         <div id="content">
             <article id="yamaha" class="card">
                 <h2>Yamaha</h2>
-                <img src="assets/image/yamaha.jpg" class="featured-image" alt="geografis">
+                <img id="catImage1" src="assets/image/yamaha.jpg" class="featured-image" alt="">
                 <p>
                     Yamaha Indonesia Motor Manufacturing (YIMM) adalah sebuah perusahaan yang memproduksi sepeda motor.
                     Perusahaan ini
@@ -40,13 +40,13 @@
                     usaha perakitan saja, semua komponen didatangkan dari Jepang.
                 </p>
                 <section class="more">
-                    <a href="#" class="more">Selengkapnya <i class="fa fa-angle-double-right"></i></a>
+                    <a href="#">Selengkapnya <i class="fa fa-angle-double-right"></i></a>
                 </section>
             </article>
 
             <article id="honda" class="card">
                 <h2>Honda</h2>
-                <img src="assets/image/honda.jpg" class="featured-image" alt="geografis">
+                <img id="catImage2" src="assets/image/honda.jpg" class="featured-image" alt="">
                 <p>
                     Honda Motor Company, Ltd. (Japanese: 本田技研工業株式会社 Honda Giken Kōgyō Kabushiki-gaisha, Honda Technology
                     Research Institute
@@ -57,13 +57,13 @@
                     taman.
                 </p>
                 <section class="more">
-                    <a href="#" class="more">Selengkapnya <i class="fa fa-angle-double-right"></i></a>
+                    <a href="#">Selengkapnya <i class="fa fa-angle-double-right"></i></a>
                 </section>
             </article>
 
             <article id="suzuki" class="card">
                 <h2>Suzuki</h2>
-                <img src="assets/image/suzuki.jpg" class="featured-image" alt="geografis">
+                <img id="catImage3" src="assets/image/suzuki.jpg" class="featured-image" alt="">
                 <p>
                     Suzuki Motor Corporation (スズキ株式会社 Suzuki Kabushiki-Kaisha) adalah perusahaan Jepang yang memproduksi
                     kendaraan seperti
@@ -72,13 +72,13 @@
                     memasarkan mobil, ATV dan sepeda motor merek Suzuki.
                 </p>
                 <section class="more">
-                    <a href="#" class="more">Selengkapnya <i class="fa fa-angle-double-right"></i></a>
+                    <a href="#">Selengkapnya <i class="fa fa-angle-double-right"></i></a>
                 </section>
             </article>
 
             <article id="kawasaki" class="card">
                 <h2>Kawasaki</h2>
-                <img src="assets/image/kawasaki.jpg" class="featured-image" alt="geografis">
+                <img id="catImage4" src="assets/image/kawasaki.jpg" class="featured-image" alt="">
                 <p>
                     Kawasaki Heavy Industries, Ltd. (川崎重工業株式会社 Kawasaki Jūkōgyō Kabushiki-gaisha) (TYO: 7012) merupakan
                     sebuah perusahaan
@@ -87,7 +87,7 @@
                     bermarkas di Minato, Tokyo, Jepang. Perusahaan ini mempekerjakan 29.211 pekerja pada tahun 2007.
                 </p>
                 <section class="more">
-                    <a href="#" class="more">Selengkapnya <i class="fa fa-angle-double-right"></i></a>
+                    <a href="#">Selengkapnya <i class="fa fa-angle-double-right"></i></a>
                 </section>
             </article>
         </div>
@@ -152,39 +152,16 @@
                     </li>
                 </section>
 
-                <section>
-                    <li class="widget">
-                        <h2><i class="fa fa-send"></i> Form</h2>
-                        <form name="" onsubmit="return alert('Terimakasih telah memberi masukan!')" method="">
-                            <div>
-                                <table>
-                                    <tr>
-                                        <th>Email</th>
-                                        <td><input type="email" name="" id='' required></td>
-                                    </tr>
-                                    <tr>
-                                        <th>Kritik</th>
-                                        <td>
-                                            <textarea name="" rows="3" id="" required></textarea>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <th>Saran</th>
-                                        <td>
-                                            <textarea name="" rows="3" id="" required></textarea>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <th></th>
-                                        <td>
-                                            <input type="submit" value="Submit">
-                                        </td>
-                                    </tr>
-                                </table>
-                            </div>
-                        </form>
-                    </li>
-                </section>
+                <div>
+                    <header>
+                        <h2><i class="fa fa-send"></i> Request DOM </h2>
+                    </header>
+                    <section>
+                        <button type="button" onclick="masukan()">Kritik dan Saran</button>
+                        <button type="button" onclick="image()">Ganti Image Artikel</button>
+                        <button type="button" onclick="text()">Terjemah Text Banner</button>
+                    </section>
+                </div>
             </article>
         </aside>
 
@@ -194,6 +171,7 @@
         <p>Indonesia selalu terdepan &#169; 2020. Team Barbar</p>
     </footer>
 
+    <script src="assets/js/function.js"></script>
     <script src="https://kit.fontawesome.com/yourcode.js"></script>
 </body>
 

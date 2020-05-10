@@ -24,6 +24,7 @@ background-image: url(../image/motogp.jpg);
 background-position: center;
 }
 
+
 nav{
 background-color: #fe0300;
 padding: 10px;
@@ -105,7 +106,7 @@ object-position: center;
 }
 
 .card p{
-  text-align: justify;
+text-align: justify;
 }
 
 .more a{
@@ -117,7 +118,6 @@ margin-right:10px;
 text-align:center;
 text-decoration:none;
 border-radius: 5px;
-
 border:#fe0300 1px solid;
 background:#fff;
 color:#fe0300;
@@ -128,7 +128,6 @@ border:#dfdfdf 1px solid;
 background:#eeeeee;
 color:#000;
 }
-
 
 
 
@@ -152,6 +151,24 @@ padding-right: 20px;
 
 section p{
 text-align: justify;
+}
+section button{
+overflow:auto;
+padding:2px 10px 2px 10px;
+margin-top: 10px;
+margin-left:80px;
+text-align:center;
+text-decoration:none;
+border-radius: 5px;
+border:#fe0300 1px solid;
+background:#fff;
+color:#fe0300;
+width: 50%;
+}
+section button:hover{
+border:#dfdfdf 1px solid;
+background:#eeeeee;
+color:#000;
 }
 
 
